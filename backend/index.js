@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 // app.use(cors());
 app.use(cors({
-  origin: "",
+  origin: 'https://asprv-stock-market-prediction-frontend.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));
