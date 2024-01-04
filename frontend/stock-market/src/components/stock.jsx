@@ -23,7 +23,8 @@ const StockDataApp = () => {
       try {
         setLoading(true); // Set loading to true before fetching data
 
-        const response = await fetch("http://localhost:3001/getStockData", {
+        // const response = await fetch("http://localhost:3001/getStockData", {
+        const response = await fetch("https://asprv-stock-market-prediction-yb16.vercel.app/getStockData", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
