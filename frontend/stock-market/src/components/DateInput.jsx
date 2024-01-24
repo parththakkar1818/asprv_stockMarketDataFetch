@@ -9,7 +9,6 @@ const getAgoDate = (years) => {
     return `${year}-${month}-${day}`;
 };
 
-
 const StartDate = ({ value, onChange }) => {
     return (
       <div className="mb-4">
@@ -25,6 +24,7 @@ const StartDate = ({ value, onChange }) => {
           id="startDate"
           value={value}
           min={getAgoDate(10)}
+          max={getAgoDate(0)}
           onChange={onChange}
         />
       </div>

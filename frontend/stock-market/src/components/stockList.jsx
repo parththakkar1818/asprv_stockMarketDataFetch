@@ -98,6 +98,7 @@ const stockOptions = [
     { symbol: "ANKITMETAL" , name: "Ankit Metal & Power limited" },
     { symbol: "ANSALHSG" , name: "Ansal Housing limited" },
     { symbol: "ANSALAPI" , name: "Ansal Properties & Infrastructure limited" },
+    { symbol: "ANURAS" , name: "Anupam Rasayan India Ltd" },
     { symbol: "APARINDS" , name: "Apar Industries limited" },
     { symbol: "APCOTEXIND" , name: "Apcotex Industries limited" },
     { symbol: "APEX" , name: "Apex Frozen Foods limited" },
